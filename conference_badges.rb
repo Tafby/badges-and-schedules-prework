@@ -7,6 +7,7 @@ def batch_badge_creator(array)
   text = "Hello, My name is #{n}"
   puts text
 end
+end
 
 def assign_rooms
   
