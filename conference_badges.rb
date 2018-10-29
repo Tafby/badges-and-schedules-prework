@@ -1,5 +1,5 @@
 def badge_maker(name)
-  attendees.map do |person|
+  name.map do |person|
      badge_maker(person)
 end 
 
