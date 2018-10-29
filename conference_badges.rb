@@ -1,6 +1,5 @@
 def badge_maker(name)
-  name.map do |person|
-     return badge_maker(person)
+badge_maker = "Hello, my name is #{name}."
    end
 end 
 
