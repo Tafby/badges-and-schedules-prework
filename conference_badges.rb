@@ -5,7 +5,6 @@ end
 def batch_badge_creator(array)
   array.each do { |x| puts "Hell, my name is #{x}" }
 end
-end
 
 def assign_rooms
   
