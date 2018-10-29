@@ -1,6 +1,7 @@
 def badge_maker(name)
   name.map do |person|
      badge_maker(person)
+   end
 end 
 
 def batch_badge_creator(array)
