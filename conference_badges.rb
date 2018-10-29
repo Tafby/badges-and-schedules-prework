@@ -1,5 +1,6 @@
 def badge_maker(name)
-  return "Hello, my name is " + name 
+  attendees.map do |person|
+     badge_maker(person)
 end 
 
 def batch_badge_creator(array)
