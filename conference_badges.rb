@@ -1,6 +1,6 @@
 def badge_maker(name)
   name.map do |person|
-     badge_maker(person)
+     return badge_maker(person)
    end
 end 
 
