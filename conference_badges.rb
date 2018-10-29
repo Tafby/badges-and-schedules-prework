@@ -1,6 +1,5 @@
-def badge_maker(array)
-   array.each do  x 
-  return "Hello, my name is #{x}" 
+def badge_maker(name)
+  return "Hello, my name is #{name}" 
 end
 end 
 
